@@ -22,6 +22,14 @@
 4. Each chunk is stored in IE history with a key like `iexstorage#001`, `iexstorage#002`, etc.
 5. URLs are later read, sorted by sequence, and decoded back to binary.
 
+## Potential Use Cases
+
+- 🧬 **Data Persistence**: Hide payloads in the registry and browser history without touching disk files.
+- 💀 **Fileless Malware Techniques**: Load and execute shellcode entirely from memory using IE's native components.
+- 🕵️ **Covert Channels**: Use browser history as an unexpected data store to exfiltrate or transfer information discreetly.
+- 🔍 **Red Team Operations**: Simulate advanced attacker techniques or test detection of obscure storage channels.
+- 🛠️ **Proof of Concept**: Demonstrate browser abuse and legacy application risks in corporate environments.
+
 ## Build
 
 You can compile the project on Windows using Visual Studio or the Developer Command Prompt.
