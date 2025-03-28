@@ -36,7 +36,7 @@ You can compile the project on Windows using Visual Studio or the Developer Comm
 
 **Requirements:**
 
-- Windows OS
+- Windows OS (< Win 10)
 - C++ Compiler (MSVC recommended)
 - Windows SDK
 - Linked libraries:
